@@ -1,4 +1,5 @@
 //Find the maximum sum of k contiguous elements
+// Also known as Sliding window problem
 
 function maxSumArray(array, k) {
   let windowSum = 0;
