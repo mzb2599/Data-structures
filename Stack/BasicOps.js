@@ -37,6 +37,6 @@ stack.push(20);
 stack.push(30);
 console.log(stack.printStack());
 
-console.log(stack.pop());  // Output: 30
-console.log(stack.peek()); // Output: 20
-console.log(stack.size()); // Output: 2
+console.log(stack.pop());  
+console.log(stack.peek()); 
+console.log(stack.size()); 
