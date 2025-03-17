@@ -111,6 +111,7 @@ class BinarySearchTree {
     }
 }
 
+//Create an object for the BinarySearchTree
 let bst = new BinarySearchTree();
 bst.insert(10);
 bst.insert(5);
