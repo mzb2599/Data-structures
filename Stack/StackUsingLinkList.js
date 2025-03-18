@@ -12,6 +12,7 @@ class StackUsingLinkList{
         this.head=null;
     }
 
+    //push operation
     push(data){
         let newNode=new Node(data);
         if(!this.head){
@@ -22,6 +23,7 @@ class StackUsingLinkList{
         }
     }
 
+    //pop operation
     pop(){
         if(!this.head){
             return "Under flow";
@@ -32,6 +34,7 @@ class StackUsingLinkList{
         }
     }
 
+    //peek operation
     peek(){
         if(!this.head){
             return "Stack is Empty";
@@ -40,6 +43,7 @@ class StackUsingLinkList{
         }
     }
 
+    //size of stack
     size(){
         let count=0;
         let current=this.head;
@@ -50,10 +54,12 @@ class StackUsingLinkList{
         return count;
     }
 
+    //check if stack is empty
     isEmpty(){
         return this.size()===0;
     }
 
+    // print stack
     printStack(){
         let current=this.head;
         let result="";
