@@ -5,7 +5,6 @@ class Stack{
     this.st =[];
     }
 
-
     //Insert an element at the top of the stack
     pushback(value){
         this.st.push(value);
