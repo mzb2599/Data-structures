@@ -10,7 +10,6 @@ class Stack{
         this.st.push(value);
     }
 
-    
     //Print the stack
     print() {
         for (var i = this.st.length-1;i>=0; i--) {
